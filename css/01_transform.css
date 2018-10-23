@@ -37,6 +37,12 @@ a:hover {
   width: 100%;
   padding: 20px;
   background: #efefef;
+  transition: all 3s;
+  transition-delay: 1s;
+}
+
+.content:hover {
+  background: black;
 }
 
 .shape {
@@ -44,4 +50,19 @@ a:hover {
   width: 200px;  
   height: 200px;
   background: red;
+  transition: all 3s;
+  transition-delay: 1s;
+}
+
+.content:hover .shape {
+  transform: rotateZ(405deg) scale(1.5);
+  background: blue;
+}
+
+.content:hover a {
+  color: white;
+  transition: all 3s;
+  transition-delay: 1s;
+
+
 }

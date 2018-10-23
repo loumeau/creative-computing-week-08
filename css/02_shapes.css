@@ -43,13 +43,23 @@ a {
 }
 
 .rectangle {
+  width: 300px;
+  height: 100px;
 
 }
 
 .circle {
+  border-radius: 100px;
 
 }
 
 .triangle {
+  height: 0px;
+  width: 0px;
+  background: transparent;
+  border-top: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 120px solid red;
+  border-left: 80px solid transparent;
 
 }
